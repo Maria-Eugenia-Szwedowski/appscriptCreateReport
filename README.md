@@ -9,7 +9,10 @@ Este proyecto fue desarrollado por María Eugenia Szwedowski con el objetivo de 
 ✔️ Rellena la plantilla con los datos de cada fila.
 ✔️ Genera automáticamente un archivo .docx y un .pdf.
 ✔️ Guarda los archivos en una carpeta específica en Google Drive.
+
+
 📂 Organización del Código
+
 El código está estructurado en un solo archivo.
 
 
