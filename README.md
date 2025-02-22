@@ -3,6 +3,7 @@
 Este proyecto fue desarrollado por María Eugenia Szwedowski con el objetivo de automatizar la generación de informes a partir de datos almacenados en Google Sheets, utilizando Google Apps Script.
 
 🛠️ Funcionalidad Principal
+
 ✔️ Toma datos de una hoja de cálculo en Google Sheets.
 ✔️ Usa un documento de plantilla en Google Docs.
 ✔️ Rellena la plantilla con los datos de cada fila.
@@ -10,12 +11,19 @@ Este proyecto fue desarrollado por María Eugenia Szwedowski con el objetivo de 
 ✔️ Guarda los archivos en una carpeta específica en Google Drive.
 📂 Organización del Código
 El código está estructurado en un solo archivo.
+
+
 📎 Requisitos
+
 Tener acceso a Google Sheets, Google Docs y Google Drive.
 Crear una plantilla en Google Docs con los marcadores <<nombre>>, <<fecha>>, etc.
 Configurar los IDs de la plantilla y la carpeta de destino
+
+
 📌 Paso a Paso
+
 1️⃣ Definición de variables clave
+
 TEMPLATE_FILE_ID: ID del archivo de Google Docs que se usará como plantilla.
 DESTINATION_FOLDER_ID: ID de la carpeta de Google Drive donde se guardarán los archivos generados.
 sheet.getActiveSheet(): Obtiene la hoja activa.
@@ -31,6 +39,7 @@ copyDoc abre la copia como un documento editable.
 
 
 📌 Resumen del Flujo
+
 ✅ Lee los datos de Google Sheets
 ✅ Abre la plantilla en Google Docs
 ✅ Crea una copia del documento
